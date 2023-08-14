@@ -16,7 +16,7 @@ public class StudentBuilder {
     return this.student;
   }
 
-  public StudentBuilder witName(String name) {
+  public StudentBuilder withName(String name) {
     this.student.setFullname(name);
     return this;
   }

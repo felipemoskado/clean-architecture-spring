@@ -14,6 +14,7 @@ public class Student {
   private Recommendation recommendation;
   private Email email;
   private String fullname;
+  private String password;
 
 
   public Student() {
@@ -51,11 +52,5 @@ public class Student {
     this.fullname = fullname;
   }
 
-  public Recommendation getRecommendation() {
-    return recommendation;
-  }
 
-  public void setRecommendation(Recommendation recommendation) {
-    this.recommendation = recommendation;
-  }
 }
